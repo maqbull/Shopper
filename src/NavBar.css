@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    background: none;
+}
+nav {
+    border: 2px solid #EAEDED;
+    border-radius: 10px;
+    width: 98%;
+    height: 100%;
+    margin: 10px ;
+    padding: 10px;
+    box-shadow : 0px 2px  blue; 
+   
+}
+li {
+    display: inline;
+}
+.store {
+    font-size: 25px;
+    font-family: 'Nunito', sans-serif;
+   
+    padding: 10px;
+    float: left;
+
+}
+
+.cart-count {
+    font-size: 25px;
+    font-family: 'Nunito', sans-serif;
+    padding: 5px;
+    float: right
+}
+.icon {
+    width: 50px;
+    margin-top: 5px;
+}
+.count {
+    float: right;
+    color: black;
+}

@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    background: none;
+}
+.ItemPage {
+    border: 2px solid #EAEDED;
+    border-radius: 10px;
+    width: 98%;
+    height: 50%;
+    /* justify-content: center;
+    align-items: center; */
+    margin: 10px ;
+    display: flex;
+    flex-direction: column;
+   
+
+   
+}
+.ItemPage h2 {
+   padding: 20px; 
+   font-size: 25px;
+   font-family: 'Nunito', sans-serif;
+}
+.item {
+    padding: 5px; 
+    font-size: 20px;
+    font-family: 'Nunito', sans-serif;
+    margin: 10px;
+    box-shadow : 0px 2px  rgb(189, 189, 218); 
+    display: flex;
+   
+ 
+}
+.item-name {
+  
+    width: 20%;
+}
+.price {
+    margin-left: 40%;
+    width: 15%;
+    padding: 10px;
+   
+    text-align: center;
+}
+@media only screen and (min-width:300px) and (max-width:500px){
+    .add {
+        border: 2px solid wheat;
+        background-color: wheat;
+        border-radius: 5px;
+        margin-left: 20px;
+        cursor: pointer;
+        width:50px;
+    }
+}
+@media only screen and (min-width:500px) and (max-width:3000px){
+    
+ .add {
+    border: 2px solid wheat;
+    background-color: wheat;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+    width: 20%;
+   }
+}
